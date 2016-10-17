@@ -1,6 +1,6 @@
 {
   "name": "language-speck",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Grammer additions to Babel and PHP to highlight Speck formatted comments.",
   "author": "MB3 <npm@mb3online.com> (https://github.com/mb3online)",
   "contributors": [
