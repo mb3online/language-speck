@@ -4,5 +4,5 @@
 '.source.speck':
   'editor':
     'softWrap': true
-    'commentStart': '/**'
+    'commentStart': '/*'
     'commentEnd': '*/'
