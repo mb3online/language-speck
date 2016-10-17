@@ -1,3 +1,3 @@
-# Speck PHP
+# speck language package
 
-This language package fully extends Language PHP with the highlighting specifically for speck php commenting
+This language package fully extends Language Babel & PHP with the highlighting specifically for speck commenting
