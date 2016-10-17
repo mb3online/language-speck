@@ -1,0 +1,44 @@
+{
+    "scopeName": "source.speck.babel",
+    "name": "Speck Babel",
+    "fileTypes": [
+        "js",
+        "es6",
+        "es",
+        "babel",
+        "jsx",
+        "flow"
+    ],
+    "patterns": [
+        {"include": "#comments"},
+        {"include": "source.js.jsx"}
+    ],
+    "repository": {
+        "comments": {
+          "patterns": [
+            {
+                "contentName": "comment.speck",
+                "begin": "\\s*+((/\\*\\* speck))((?!/))",
+                "end": "(\\s*(\\*/))",
+                "captures": {
+                    "1": {"name": "comment.block.documentation.js"}
+                },
+                "patterns": [
+                    {"include": "source.coffee"}
+                ]
+            },
+            {
+                "contentName": "comment.speck",
+                "begin": "\\s*+((/\\* speck))",
+                "end": "(\\s*(\\*/))",
+                "captures": {
+                    "1": {"name": "comment.block.documentation.js"}
+                },
+                "patterns": [
+                    { "include": "source.coffee" }
+                ]
+            }
+          ]
+        }
+    }
+}
