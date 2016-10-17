@@ -1,0 +1,20 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+'.source.speck.babel':
+  'docblock':
+    'prefix': 'doc'
+    'body': '''
+        /**
+            'name': '${1}'
+        */
+    '''
+
+'.source.speck.php':
+  'docblock':
+    'prefix': 'doc'
+    'body': '''
+        /**
+            'name': '${1}'
+        */
+    '''

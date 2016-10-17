@@ -1,12 +1,14 @@
 {
-  "name": "language-speck-php",
+  "name": "language-speck",
   "version": "0.0.0",
   "description": "A short description of your language package",
   "keywords": [
     "language",
-    "grammar"
+    "grammar",
+    "PHP",
+    "Speck"
   ],
-  "repository": "https://github.com/atom/language-speck-php",
+  "repository": "https://github.com/mb3online/language-speck",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
