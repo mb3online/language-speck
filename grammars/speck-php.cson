@@ -1,4 +1,4 @@
-'scopeName': 'text.html.php'
+'scopeName': 'source.speck.php'
 'name': 'Speck PHP'
 'fileTypes': [
   'aw'
@@ -37,7 +37,7 @@
 'foldingStartMarker': '(/\\*|\\{\\s*$|<<<HTML)'
 'foldingStopMarker': '(\\*/|^\\s*\\}|^HTML;)'
 'injections':
-  'text.html.php - (meta.embedded | meta.tag), L:text.html.php meta.tag, L:source.js.embedded.html':
+  'source.speck.php - (meta.embedded | meta.tag), L:source.speck.php meta.tag, L:source.js.embedded.html':
     'patterns': [
       {
         'begin': '(^\\s*)(?=<\\?(?![^?]*\\?>))'
